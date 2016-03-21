@@ -1,0 +1,125 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body {
+  font-family: "PT Sans", sans-serif;
+
+}
+
+.container{
+	overflow: hidden;
+  width: 960px;
+  margin: 0 auto;
+  padding: 10px;
+}
+p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000
+
+}
+
+.main_teaser{
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.slogan {
+  font-weight: 600;
+  font-size: 44px;
+  color: white;
+  text-transform: uppercase;
+}
+
+a, .button_catalog {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.button_catalog {
+  padding: 17px 25px;
+  border: 2px solid;
+  border-color: #ffcd34;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+/**********************
+  header
+***********************/
+.page-header{
+  background-color: #ffcd34;
+  padding: 15px 0;
+  position: relative;
+}
+.logo{
+  float: left;
+  width: 30%;
+  text-decoration: none;
+}
+.logo-text {
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+}
+
+.border:before {
+content: "";
+display: block;
+position: absolute;
+bottom: 0;
+left: 0;
+height: 14px;
+width: 100%;
+background-image: linear-gradient(135deg, #ffcd34 35%, #000 35%, #000 65%, #ffcd34 65%);
+background-size: 25px 14px;
+}
+
+
+.main-nav{
+  float: right;
+  width: 70%;
+  text-align: right;
+}
+
+.main-nav li{
+  display: inline-block;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  padding: 15px;
+  border: 2px solid transparent;
+  display: inline-block;
+
+}
+
+.btn-order {
+  background-color: #ffe184;
+  padding: 17px 25px;
+  border: none;
+
+}
+
+.teaser_head {
+  background-image: url(../img/index-ekskavator.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  text-align: center;
+  padding-top: 140px;
+  padding-bottom: 120px;
+  position: relative;
+
+}
+
+
+
